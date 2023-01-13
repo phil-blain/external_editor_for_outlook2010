@@ -42,7 +42,7 @@ You can configure the environment of your external editor with the following con
   e.g. If you use [xyzzy](https://github.com/xyzzy-022/xyzzy) as your external editor, set `EDITOR_PATH` to `"C:\...\xyzzy.exe"`.
 * `TEMP_DIR`  
   Absolute path to the directory in which temporary files are saved  
-  This variable must end with "`\`".
+  This variable must end with "`\`". The directory must already exist.
 * `REMOVE_TEMP_FILES`  
   If this is set to `True`, this macro removes temporary files after you close the external editor.  
   If this is set to `False`, this macro leave temporary files for fail safe.
